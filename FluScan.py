@@ -28,9 +28,6 @@ def hosts(_ip):
     try:
         hosts_values = socket.gethostbyaddr(_ip)
         print hosts_values
-
-        #hosts_values = socket.gethostbyname(_ip)
-        #print "gethostbyname --> ", hosts_values
         
         """
         hosts_values = socket.gethostbyaddr(_ip)
@@ -80,7 +77,7 @@ def ip_order(_ip1, _ip2):
         elif _ip2_split[i] > _ip1_split[i]:
             return _ip2, _ip1
         
-        return _ip2, _ip1
+    return _ip2, _ip1
 
 
 def ip_add(_ip):

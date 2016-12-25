@@ -134,7 +134,8 @@ if __name__ == "__main__":
     #main('37.152.88.9') # elbitseguro.com 
 
     ip1 = '37.152.88.9'
-    ip2 = '37.152.88.10'
+    ip2 = '37.152.88.9'
+
     ip2, ip1 = ip_order(ip1, ip2)
 
     main(ip1, ip2)
